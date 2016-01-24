@@ -1,0 +1,7 @@
+{
+	"title" : "Primjer Internacionalizacije",
+	"segment": {
+  		"puppies": "Psići",
+  		"kittens": "Mačkice"
+	}
+}

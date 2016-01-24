@@ -1,0 +1,38 @@
+<ion-navbar *navbar>
+  <ion-title>
+    {{ "title" | translate }}
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+  <div padding>
+    <ion-segment [(ngModel)]="pet">
+      <ion-segment-button value="puppies">
+        {{ "segment.puppies" | translate }}
+      </ion-segment-button>
+      <ion-segment-button value="kittens">
+        {{ "segment.kittens" | translate }} 
+      </ion-segment-button>      
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="pet">
+    <ion-list *ngSwitchWhen="'puppies'">
+      <ion-item>
+        <ion-thumbnail item-left>
+          <img src="http://ionicframework.com/dist/preview-app/www/img/thumbnail-puppy-1.jpg">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchWhen="'kittens'">
+      <ion-item>
+        <ion-thumbnail item-left>
+          <img src="http://ionicframework.com/dist/preview-app/www/img/thumbnail-kitten-3.jpg">
+        </ion-thumbnail>
+        <h2>Luna</h2>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

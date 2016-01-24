@@ -1,0 +1,7 @@
+{
+	"title" : "Internationalization Example",	
+	"segment": {	
+  		"puppies": "Puppies",
+  		"kittens": "Kittens"
+	}
+}
