@@ -1,17 +1,11 @@
-## This is a Ionic 2 tutorial example made for www.gajotres.net
+## This is a Ionic 2 tutorial example made for http://www.gajotres.net/ionic-2-internationalize-and-localize-your-app-with-angular-2/
 
-1. Download this example
+Follow these instruction to deploy this example:
 
-2. Update Ionic and Cordova
-
-    npm install -g cordova ionic@beta
-
-3. Generate a blank Ionic 2 template
-
-    ionic start Ionic2InternationalizationExample blank --v2
-
-4. Copy content of a www and app project into a newly generated project
-
-5. Install ng2-translate plugij:
-
-    npm install ng2-translate --save
+1. git clone https://github.com/Gajotres/Ionic2InternationalizationExample.git
+2. cd Ionic2InternationalizationExample
+3. ionic platform add android
+4. cordova plugin add cordova-plugin-whitelist
+5. npm install
+6. ionic serve -> To see if everything is working as it should
+7. ionic run android -l -c -s
