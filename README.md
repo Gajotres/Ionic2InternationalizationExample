@@ -1,4 +1,4 @@
-## This is a Ionic 2 tutorial example made for http://www.gajotres.net/ionic-2-internationalize-and-localize-your-app-with-angular-2/
+### This is a Ionic 2 tutorial example made for http://www.gajotres.net/ionic-2-internationalize-and-localize-your-app-with-angular-2/
 
 Follow these instruction to deploy this example:
 
